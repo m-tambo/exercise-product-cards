@@ -1,0 +1,9 @@
+/* card stylings */
+
+.products article {
+	border: 1px solid lightblue;
+	display: inline-block;
+	width: 30%;
+	margin: 1%;
+	padding: 5px;
+}
