@@ -1,27 +1,26 @@
 /*
-The card title has a dotted 1px border that is lightgray.
-
-
-The text for the product specification details and pricing details is bold.
 The availability element extends the full width of the card, with a dark grey background and yellow text.
 */
 
+/*bold headers*/
+h2, h1, .specHeader {
+	font-weight: bolder;
+}
 
 /* card borders */
-
 .products article {
-	border: 1px solid lightblue;
+	border: 1px dotted lightblue;
 	display: inline-block;
 	width: 30%;
-	margin: 1%;
+	margin: 0 auto;
 	padding: 5px;
 
 }
 
 /* image sizing */
-
-img {
-	max-width: 250px;
+.products article img {
+	max-width: 90%;
+	display: block;
 	margin: 0 auto;
 }
 
@@ -32,9 +31,17 @@ img {
 }
 
 /*Justify descriptions*/
-
 .description {
 	text-align: justify;
+	padding: 2%;
+}
+
+/*availability*/
+.avail {
+	font-weight: 600;
+	text-align: center;
+	color: yellow;
+	background-color: lightgrey;
 }
 
 /*footer styling*/
