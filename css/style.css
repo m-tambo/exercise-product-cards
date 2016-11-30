@@ -1,6 +1,9 @@
-/*
-The availability element extends the full width of the card, with a dark grey background and yellow text.
-*/
+
+
+/*article sizing*/
+.catItem {
+
+}
 
 /*bold headers*/
 h2, h1, .specHeader {
@@ -44,7 +47,29 @@ h2, h1, .specHeader {
 	background-color: lightgrey;
 }
 
+/*specs*/
+.specs {
+	font-size: .8em;
+	line-height: .6em;
+}
+
+.specs footer {
+	text-align: right;
+}
+
+/*pricing*/
+.pricing {
+	font-size: .8em;
+	line-height: .8em;
+}
+
 /*footer styling*/
 
-
+/*flexbox*/
+.products {
+	display: inline-flex;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: center;
+}
 
