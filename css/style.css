@@ -1,0 +1,75 @@
+
+
+/*article sizing*/
+.catItem {
+
+}
+
+/*bold headers*/
+h2, h1, .specHeader {
+	font-weight: bolder;
+}
+
+/* card borders */
+.products article {
+	border: 1px dotted lightblue;
+	display: inline-block;
+	width: 30%;
+	margin: 0 auto;
+	padding: 5px;
+
+}
+
+/* image sizing */
+.products article img {
+	max-width: 90%;
+	display: block;
+	margin: 0 auto;
+}
+
+/* The title and product image are centered. */
+.catName {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+/*Justify descriptions*/
+.description {
+	text-align: justify;
+	padding: 2%;
+}
+
+/*availability*/
+.avail {
+	font-weight: 600;
+	text-align: center;
+	color: yellow;
+	background-color: lightgrey;
+}
+
+/*specs*/
+.specs {
+	font-size: .8em;
+	line-height: .6em;
+}
+
+.specs footer {
+	text-align: right;
+}
+
+/*pricing*/
+.pricing {
+	font-size: .8em;
+	line-height: .8em;
+}
+
+/*footer styling*/
+
+/*flexbox*/
+.products {
+	display: inline-flex;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: center;
+}
+
