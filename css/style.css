@@ -1,4 +1,13 @@
-/* card stylings */
+/*
+The card title has a dotted 1px border that is lightgray.
+
+
+The text for the product specification details and pricing details is bold.
+The availability element extends the full width of the card, with a dark grey background and yellow text.
+*/
+
+
+/* card borders */
 
 .products article {
 	border: 1px solid lightblue;
@@ -9,7 +18,26 @@
 
 }
 
+/* image sizing */
+
 img {
 	max-width: 250px;
-
+	margin: 0 auto;
 }
+
+/* The title and product image are centered. */
+.catName {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+/*Justify descriptions*/
+
+.description {
+	text-align: justify;
+}
+
+/*footer styling*/
+
+
+
